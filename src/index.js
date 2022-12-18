@@ -10,8 +10,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.connect("mongodb+srv://functionup-cohort:G0Loxqc9wFEGyEeJ@cluster0.rzotr.mongodb.net/Pritesh87698-DB?retryWrites=true&w=majority", {
     useNewUrlParser: true
-})
-.then( () => console.log("MongoDb is connected"))
+}, mongoose.set('strictQuery', true))
+.then( () => console.log("i LOve ANkur"))
 .catch ( err => console.log(err) )
 
 app.use('/', route);
