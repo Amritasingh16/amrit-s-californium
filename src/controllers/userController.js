@@ -12,7 +12,7 @@ const createUser = async function (abcd, xyz) {
   let savedData = await userModel.create(data);
   console.log(abcd.newAtribute);
   xyz.send({ msg: savedData });
-};
+}
 
 const loginUser = async function (req, res) {
   let userName = req.body.emailId;
