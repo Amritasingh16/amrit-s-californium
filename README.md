@@ -10,7 +10,7 @@ Think of this like getting an ID card the first day of your college and then sho
 ## Assignment
 - For this assignment you have to create a new branch - assignment/auth-1
 - Your user document should look like this
-```
+
  	{
     "_id" : ObjectId("6226e3d2b98f22b349ca58be"),
     "firstName" : "Sabiha",
