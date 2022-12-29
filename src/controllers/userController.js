@@ -40,7 +40,8 @@ const loginUser = async function (req, res) {
   res.send({ status: true, data: token });
 };
 
-const getUserData = async function (req, res) {
+const getUserData = async function (req, res
+  ) {
   let token = req.headers["x-Auth-token"];
   if (!token) token = req.headers["x-auth-token"];
 
